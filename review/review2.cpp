@@ -16,6 +16,7 @@ struct Student {
 // input into the student object passed in as an argument.
 Student* populate_fields(Student* x) {
     // TO BE COMPLETED
+    
     return x;
 }
 
@@ -26,8 +27,17 @@ void display_student(Student* x) {
 
 int main() {
     // Declare a Student object in the heap
+    Student* student1 = new Student;
 
     // Call the functions that were completed
+    
+    
+    cout << "Enter first name: ";
+    cin >> first endl;
+    student1->
+    
+    cout << "Enter last name: ";
+    cin >> last endl;
 
     return 0;
 }
